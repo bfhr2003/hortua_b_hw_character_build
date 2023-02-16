@@ -1,0 +1,66 @@
+/*element (tag, classes, ids) {
+    style-type: my choice;
+    border:none;
+    background:;
+}
+
+element { rule @1 }*/
+
+* {
+   border: none;
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/*<hidden><hidden>
+hidden 
+
+<div class="hidden"></div>
+.hidden
+
+<div id="hidden"></div>
+#hidden  */
+
+.hidden { display: none; }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white; /*text color*/
+}
+
+/* main header rules  */
+header {
+    background-color: red;
+    text-align:center;
+    position: sticky;
+    top: 0;
+}
+
+#marvel-logo {
+    width: 300px;
+    padding: 10px 0px;
+    /*padding: 10px 5px;
+    padding: 10px 5px 4px 15px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 15px;*/
+}
+
+/* footer rules here */
+footer {
+    color: white;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.sticky_footer {
+    background-color: rgb(40,37,37);
+    height:80px;
+}
